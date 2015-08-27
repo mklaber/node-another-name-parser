@@ -1,8 +1,9 @@
 {
   "name": "another-name-parser",
   "version": "0.0.1",
-  "description": "Yet another name parser (title, first, middle, last, and suffix)",
+  "description": "Yet another name parser (prefix, first, middle, last, and suffix)",
   "main": "index.js",
+  "homepage": "https://github.com/mklaber/node-another-name-parser",
   "scripts": {
     "test": "grunt test"
   },
@@ -13,8 +14,24 @@
     "parse",
     "standardizer"
   ],
-  "author": "Matt Klaber",
-  "license": "ISC",
+  "author": "Matt Klaber (http://github.com/mklaber)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mklaber/node-another-name-parser.git"
+  },
+  "contributors": [
+    {
+      "name": "Matt Klaber",
+      "web": "http://github.com/mklaber"
+    }
+  ],
+  "bugs": {
+    "url": "http://github.com/mklaber/node-another-name-parser/issues/"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
   "dependencies": {
     "lodash": "^3.10.1",
     "string": "^3.3.1"
