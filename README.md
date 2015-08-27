@@ -5,9 +5,13 @@ and returns a `prefix` (title), `first` (or *given name*), `middle` (or initial)
 and `suffix`. It's designed for US English but could be useful elsewhere. It's inspired by a SQL script a 
 colleague pulled together long ago combined with inspiration from a few other libraries.
 
+
+[![NPM](https://nodei.co/npm/another-name-parser.png)](https://nodei.co/npm/another-name-parser/)
+
+
 ## Installation
 
-Via npm
+Via [npm](https://www.npmjs.com/package/another-name-parser)
 
 ```bash
 $ npm install another-name-parser
