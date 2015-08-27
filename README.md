@@ -36,6 +36,7 @@ var name = parser('Commissioner James "Jim" W. Gordon, Sr.');
 * Recognizes common compound first names (*Mary Jo*, *Juan Carlos*, etc.)
 * Recognizes common compound last name prefixes (*St.*, *Mac*, *Bin*, etc.)
 * Recognizes *Last Name, First Name* order
+* Ignores quoted or parenthesized nicknames (*Catherine "Cathy" Smith* &rarr; *Catherine Smith*, *James (Jim) Von Trapp* &rarr; *James Von Trapp*)
 
 
 ## Tests
