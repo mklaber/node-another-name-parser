@@ -14,7 +14,7 @@
     "parse",
     "standardizer"
   ],
-  "author": "Matt Klaber (http://github.com/mklaber)",
+  "author": "Matt Klaber <klaber@gmail.com> (http://github.com/mklaber/)",
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -23,7 +23,8 @@
   "contributors": [
     {
       "name": "Matt Klaber",
-      "web": "http://github.com/mklaber"
+      "email": "klaber@gmail.com",
+      "web": "http://github.com/mklaber/"
     }
   ],
   "bugs": {
