@@ -56,7 +56,7 @@ npm test
 ## Acknowledgements
 
 * My former colleague and whomever he got his original script from
-* Some of the test cases came from the [humanname](https://www.npmjs.com/package/humanname) module
+* Some of the test cases and compound lastname prefixes came from the [humanname](https://www.npmjs.com/package/humanname) module
 
 
 ## License
