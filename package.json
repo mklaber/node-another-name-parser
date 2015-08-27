@@ -1,0 +1,30 @@
+{
+  "name": "another-name-parser",
+  "version": "0.0.1",
+  "description": "Yet another name parser (title, first, middle, last, and suffix)",
+  "main": "index.js",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "keywords": [
+    "personal",
+    "name",
+    "parser",
+    "parse",
+    "standardizer"
+  ],
+  "author": "Matt Klaber",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^3.10.1",
+    "string": "^3.3.1"
+  },
+  "devDependencies": {
+    "chai": "^3.2.0",
+    "grunt": "^0.4.5",
+    "grunt-contrib-jshint": "^0.11.2",
+    "grunt-mocha-test": "^0.12.7",
+    "jshint-stylish": "^2.0.1",
+    "mocha": "^2.2.5"
+  }
+}

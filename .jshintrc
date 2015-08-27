@@ -1,0 +1,27 @@
+{
+  "curly": true,
+  "immed": true,
+  "latedef": "nofunc",
+  "newcap": true,
+  "noarg": true,
+  "sub": true,
+  "boss": true,
+  "eqnull": true,
+  "node": true,
+  "eqeqeq": true,
+  "undef": true,
+  "unused": true,
+  "indent": 2,
+  "maxlen": 100,
+  "strict": true,
+  "trailing": true,
+  "expr": true,
+  "predef": [
+    "it",
+    "describe",
+    "beforeEach",
+    "afterEach",
+    "before",
+    "after"
+  ]
+}
