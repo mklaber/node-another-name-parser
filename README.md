@@ -20,7 +20,12 @@ $ npm install another-name-parser
 var parser = require('another-name-parser');
 
 var name = parser('Commissioner James "Jim" W. Gordon, Sr.');
-// &rarr; {"prefix":"Commissioner","first":"James","middle":"W.","last":"Gordon","suffix":"Sr.","original":"Commissioner James \"Jim\" W. Gordon, Sr."}
+// → { prefix: 'Commissioner',
+//     first: 'James',
+//     middle: 'W.',
+//     last: 'Gordon',
+//     suffix: 'Sr.',
+//     original: 'Commissioner James "Jim" W. Gordon, Sr.' }
 
 ```
 
@@ -43,10 +48,10 @@ npm test
 ```
 
 
-## TODO:
+## TODO
 
-[ ] Handle multiple names, e.g, *Jim & Mark Anderson*
-[ ] Handle likely company names (maybe)
+* Handle multiple names, e.g, *Jim & Mark Anderson*
+* Handle likely company names (maybe)
 
 ## Acknowledgements
 
