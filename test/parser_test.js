@@ -5,7 +5,6 @@ var sut = require('../lib/parser'),
 
 describe('parser', function () {
 
-  console.log(JSON.stringify(sut('Commissioner James "Jim" W. Gordon, Sr.')));
   var tests = [
     {
       "test": "last, first",
