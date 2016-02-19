@@ -256,6 +256,16 @@ describe('parser', function () {
         "suffix": null,
         "original": "Aaron bin Omar"
       }
+    }, {
+      "test": "Dutch compound last name",
+      "result": {
+        "prefix": null,
+        "first": "Richard",
+        "middle": null,
+        "last": "van der Dys",
+        "suffix": null,
+        "original": "Richard van der Dys"
+      }
     }
   ];
 
