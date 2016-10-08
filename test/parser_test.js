@@ -266,6 +266,16 @@ describe('parser', function () {
         "suffix": null,
         "original": "Richard van der Dys"
       }
+    }, {
+      "test": "two compound last name prefixes",
+      "result": {
+        "prefix": null,
+        "first": "Joe",
+        "middle": null,
+        "last": "de la Cruz",
+        "suffix": null,
+        "original": "Joe de la Cruz"
+      }
     }
   ];
 
