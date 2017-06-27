@@ -276,6 +276,16 @@ describe('parser', function () {
         "suffix": null,
         "original": "Joe de la Cruz"
       }
+    }, {
+      "test": "first last esquire",
+      "result": {
+        "prefix": null,
+        "first": "John",
+        "middle": null,
+        "last": "Doe",
+        "suffix": "Esquire",
+        "original": "John Doe Esquire"
+      }
     }
   ];
 
