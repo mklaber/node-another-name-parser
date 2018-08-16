@@ -1,6 +1,6 @@
 {
   "name": "another-name-parser",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Yet another name parser (prefix, first, middle, last, and suffix)",
   "main": "index.js",
   "homepage": "https://github.com/mklaber/node-another-name-parser",
@@ -34,14 +34,14 @@
     "node": ">=0.10.0"
   },
   "dependencies": {
-    "lodash": "^3.10.1"
+    "lodash": "^4.17.10"
   },
   "devDependencies": {
     "chai": "^3.2.0",
-    "grunt": "^0.4.5",
-    "grunt-contrib-jshint": "^0.11.2",
+    "grunt": "^1.0.3",
+    "grunt-contrib-jshint": "^1.1.0",
     "grunt-mocha-test": "^0.12.7",
     "jshint-stylish": "^2.0.1",
-    "mocha": "^2.2.5"
+    "mocha": "^5.2.0"
   }
 }
