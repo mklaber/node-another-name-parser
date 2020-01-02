@@ -5,7 +5,7 @@
   "main": "index.js",
   "homepage": "https://github.com/mklaber/node-another-name-parser",
   "scripts": {
-    "test": "grunt test"
+    "test": "mocha"
   },
   "keywords": [
     "personal",

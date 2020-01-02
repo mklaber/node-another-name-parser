@@ -21,9 +21,9 @@ $ npm install another-name-parser
 
 ```javascript
 
-var parser = require('another-name-parser');
+const parser = require('another-name-parser');
 
-var name = parser('Commissioner James "Jim" W. Gordon, Sr.');
+const name = parser('Commissioner James "Jim" W. Gordon, Sr.');
 // → { prefix: 'Commissioner',
 //     first: 'James',
 //     middle: 'W.',
@@ -45,10 +45,7 @@ var name = parser('Commissioner James "Jim" W. Gordon, Sr.');
 
 ## Tests
 
-Dependencies: [grunt-cli](https://www.npmjs.com/package/grunt-cli)
-
 ```bash
-npm install -g grunt-cli
 npm test
 ```
 
