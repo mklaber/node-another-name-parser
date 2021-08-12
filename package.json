@@ -1,6 +1,6 @@
 {
   "name": "another-name-parser",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "Yet another name parser (prefix, first, middle, last, and suffix)",
   "main": "index.js",
   "homepage": "https://github.com/mklaber/node-another-name-parser",
