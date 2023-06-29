@@ -38,11 +38,11 @@
   },
   "devDependencies": {
     "chai": "^3.2.0",
-    "grunt": "^1.5.3",
+    "grunt": "^1.0.4",
     "grunt-contrib-jshint": "^1.1.0",
     "grunt-mocha-test": "^0.12.7",
     "jshint-stylish": "^2.0.1",
-    "mocha": "^10.2.0"
+    "mocha": "^5.2.0"
   },
   "types": "./index.d.ts"
 }
